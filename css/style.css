@@ -1,0 +1,380 @@
+/* GLOBAL CSS */
+header, section, footer, aside, nav, main, article, figure {
+    display: block
+}
+html {
+    font-size: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title-section {
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding-top: 1rem;
+}
+/* END GLOBAL CSS */
+
+/* HEADER CSS */
+header {
+    background-color: #363d41;
+    height: 2rem;
+    line-height: 2rem;
+    color: #ffffff;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;   
+}
+
+header .header__social {
+    letter-spacing: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.header__phone h1 {
+    font-size: 0.8rem;
+    letter-spacing: 0.15rem;
+}
+
+/* .header__phone span {
+    transform: rotateY(90deg);
+} */
+
+/* END HEADER CSS */
+
+/* NAVIGATION CSS */
+nav .container{
+    display: flex; 
+    justify-content: space-between;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 0.8rem;
+}
+
+.logo a {
+    color: #97999b;
+    font-weight: 400;
+}
+
+.logo span {
+    color: #7f67f8;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 1.3rem;
+    font-weight: 600;
+    
+}
+
+nav ul li span {
+    padding-left: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+/* END NAVIGATION CSS */
+
+/* CAROUSEL CSS */
+.carousel {
+    display: flex;
+    height: 35rem;
+    background-image: url(../images/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 7rem;
+    color: #ffffff;
+}
+
+.carousel__title {
+    letter-spacing: 0.4rem;
+    font-weight: 600;
+}
+
+.btn-violet {
+    background-color: #7f67f8;
+    border: 2px solid transparent;
+    padding: 0.3rem 0.9rem;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+
+.btn-violet:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 0.3rem 0.9rem;
+}
+/* END CAROUSEL CSS */
+
+/* INTRODUCTION */
+.intro {
+    margin: 1rem 2rem;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    color: #9691912a;
+    margin-top: 3rem;
+}
+
+.description {
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 1rem 1rem;
+}
+
+.article-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.border-right {
+    border-right: 2px solid #9691912a;
+}
+
+article {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+article i, article .count-number {
+    color: #f97c69;
+    font-weight: 700;
+}
+
+article .article-title {
+    font-size: 0.8rem;
+}
+
+.article-items p {
+    padding-top: 0.5rem;    
+}
+
+/* END INTRODUCTION */
+
+
+/* SERVICES CSS */
+.service {
+    font-size: 1.2rem;
+    padding:0 7rem;
+}
+
+.service__counter {
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service__counter .service__title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service__title {
+    color: #ffffff;    
+    text-align: center;
+    padding: 4rem 6rem ;
+
+}
+
+.service__title > p {
+    font-size: 0.7rem;
+}
+
+.service__article {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem 4rem;
+}
+
+.service__article .title-section {
+    padding: 0.7rem 10rem;
+}
+
+.service__article > p {
+    font-size: 0.7rem;
+}
+
+.article-items .container {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .article-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-orange,.bg-orange i {
+    background-color: #f97c69;
+    color: #ffffff;
+}
+
+.service__main {
+    background-image: url(../images/3.jpg);
+}
+
+.article-content {
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.article-content article {
+    width: 33.33%;
+}
+/* END SERVICES CSS */
+
+/* CUSTOMER CSS */
+.article-items article img {
+    border: 3px solid #7f67f8;
+    border-radius: 50%;
+    width: 4rem;
+}
+/* END CUSTOMER CSS */
+
+/* SUBCRIBE CSS */
+.subcribes {
+    margin: auto;
+    background-color: #000000;
+    color: #ffffff;
+    padding:  1.4rem
+}
+
+.subcribes .container {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.subcribes .subcribe__title {
+    color: #f97c69;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.subcribe__news {
+    font-size: 0.6rem;
+    padding: 0 0.6rem;
+    width:65%;
+}
+
+.subcribe__news p {
+    padding-bottom: 1rem;
+}
+
+form {
+    height: 1.7rem;
+    width: 14rem;
+    border: 2px solid #363d41;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    border: none;
+    height: 100%;
+    width: 85%;
+    color: #ffffff;
+    background-color: #000000;
+    padding-left: 0.4rem;
+}
+
+form button {
+    width: 15%;
+    border: none;
+    background-color: #7f67f8;
+    height: 100%;
+}
+
+form button i {
+    color: #ffffff;
+}
+
+.subcribe__links {
+    width: 30%;
+
+}
+
+.subcribe__links ul {
+    list-style: none;
+    padding: 0
+}
+
+.subcribe__links ul li a {
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.subcribe__contact {
+    width: 20%;
+}
+
+.subcribe__contact i {
+    color: #f97c69;
+}
+
+.subcribe__contact span{
+    font-size: 0.6rem;
+    padding-left: 0.4rem;
+}
+
+.back-top i  {
+    font-size: 1.5rem;
+    color: #f97c69;
+    position: fixed;
+    bottom: 20px;
+    right: 20px
+}
+
+footer {
+    background-color: #363d41;
+    padding: 0.5rem;
+}
+
+footer p {
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+footer p span {
+    padding-right: 0.5rem;
+    font-weight: 600;
+}
+
+footer p a {
+    color: #ffffff;
+}
+
+/* END SUBCRIBE CSS */
